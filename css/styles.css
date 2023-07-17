@@ -1,0 +1,223 @@
+
+
+:root{--primary-font: 'Roboto', sans-serif; --logo-font: 'Raleway', sans-serif;
+
+    --color-slate: #434455;
+    --color-navyblue:#2E2F42;
+    --color-white: #FFFFFF;
+    --color-iris: #4D5AE5;
+    --color-cloud: #F4F4FD;
+    --color-ocean: #404BBF;
+    --color-green:#31d0aa;
+    --color-ligth-slate:#8e8f99;
+    --color-corn-flower:#e7e9fc;
+    --color-navy-blue-modal:#2e2f42;
+    --color-grey:#2e2f42;
+    --color-dairy:#fcfcfc;
+
+}
+
+
+
+body {
+    font-family:
+        'Roboto', sans-serif;
+    color:var(--color-slate);
+    background-color: var(--color-white);
+}
+
+.list {
+list-style: none;
+}
+.link {
+ text-decoration: none;}
+
+/* ----------------HEADER-------------------------- */
+
+.header-logo{color:var(--color-iris);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.header-logo-studio{color:var(--color-grey);
+}
+.header-menu-link{color:var(--color-grey);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+    address{font-style:normal;}
+
+.header-menu-link:hover{color: var(--color-ocean);}
+.header-menu-link:focus{color: var(--color-ocean);}
+
+
+.header-address-link:hover{color: var(--color-ocean);}
+.header-address-link:focus{color:var(--color-ocean);} 
+
+    
+
+    /* --------------hero-BUTTONS------------------------ */
+
+
+
+.section-one {
+    background-color:var(--color-navy-blue-modal);
+}
+
+    .main-one-title{color:var(--color-white);
+        text-align: center;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;}
+
+
+
+
+
+   
+        .section-one-button{color:var(--color-white);
+            font-size: 16px;
+            font-family:inherit;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+        background-color: var(--color-iris);
+        cursor: pointer;
+    }
+
+        .section-one-button:hover{background-color: var(--color-ocean);}
+        .section-one-button:focus{background-color: var(--color-ocean);}
+
+                
+
+        /*------------------ SECTION-TWO----------------- */
+
+.advantages-subtitle{color:var(--color-grey);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+
+
+.advantages-text{
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+    /* SECTION------THREE----DOING----- */
+
+    .doing-title{color:var(--color-navy-blue-modal);
+        text-align: center;
+    
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;}
+
+        /* SECTION ----FOUR--- OUR--TEAM---- */
+
+        .team{background-color:var(--color-cloud);}
+
+ .team-title{color:var(--color-navy-blue-modal);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+
+    .team-item{background-color:var(--color-white);}
+
+    .team-subtitle{color:var(--color-grey);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;}
+
+      .team-text{line-height: 1.5;
+        letter-spacing: 0.02em;}
+
+/* ----------FOOTER--------------- */
+
+
+.footer{background:var(--color-navy-blue-modal);}
+
+.footer-link {
+    color:var(--color-iris);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-link-studio{
+    color: var(--color-cloud);
+}
+.footer-text{color:var(--color-cloud);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+
+
+
+
+
+
+
+
+/*-----------------PORTFOLIO---------------------------- */
+
+/* ----------------HEADER------------------------------- */
+
+.header-address-link {color:var(--color-slate);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+
+/* MAIN SECTION-----BUTTONS---------------------- */
+.button-all {
+    color: var(--color-iris);
+    font-family:inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--color-cloud);
+    cursor: pointer;
+}
+.button-all:hover {color: var(--color-white)#FFFFFF; background-color:var(--color-ocean);}
+.button-all:focus {color: var(--color-white)#FFFFFF; background-color:var(--color-ocean);}
+
+
+
+
+
+
+
+/* ------------MAIN SECTION---------NINE----PICTURES---------- */
+
+ .section-picture-title {
+     color:var(--color-grey);
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+ }
+
+ .section-picture-text{color:var(--color-slate);
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
