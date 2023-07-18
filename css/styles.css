@@ -55,6 +55,17 @@ list-style: none;
 }
 .link {
  text-decoration: none;}
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+ }
 
 /* ----------------HEADER-------------------------- */
 
@@ -174,33 +185,50 @@ margin-bottom:8px;}
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-    margin-bottom: 72px;}
+        margin-bottom: 72px;}
 
-    .doing-list list{display: flex;
+    .doing-list .list{display: flex;
     gap: 24px;}
 
         /* SECTION ----FOUR--- OUR--TEAM---- */
 
-        .team{background-color:var(--color-cloud);}
+    .team{background-color:var(--color-cloud);
+    padding:120px 0;}
 
  .team-title{color:var(--color-navy-blue-modal);
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
 
-    .team-item{background-color:var(--color-white);}
+    .team-item{background-color:var(--color-white);
+    border-radius: 0px 0px 4px 4px;
+}
 
     .team-subtitle{color:var(--color-grey);
         text-align: center;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+    margin-bottom: 8px;}
 
       .team-text{line-height: 1.5;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+    text-align:center;}
+    
+        .team-list .list{
+            display:flex;
+            gap:24px;
+
+        }
+        .name{
+            padding:32px o;
+        }
+
 
 /* ----------FOOTER--------------- */
 
