@@ -17,14 +17,11 @@
 
 }
 
-.container {
-display:flex; 
+.container { 
 width: 1158px;
-max-width: 
+margin:0 auto;
 padding-left:15px; 
-padding-right:15px; 
-margin-left:  
-margin-right:  
+padding-right:15px;   
 }
 
 
@@ -95,7 +92,7 @@ align-items:center;}
 gap:40px;
 padding:24px 0;}
 
-.header-address{display-flex;
+.header-address-list{display-flex:
 gap:40px;}
     
 
@@ -105,13 +102,15 @@ gap:40px;}
 
 .section-one {
     background-color:var(--color-navy-blue-modal);
+    padding: 188px 0;
 }
 
     .main-one-title{color:var(--color-white);
         text-align: center;
         font-size: 56px;
         line-height: 1.07;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+        max-width: 496px;}
 
 
 
@@ -126,6 +125,10 @@ gap:40px;}
             letter-spacing: 0.04em;
         background-color: var(--color-iris);
         cursor: pointer;
+        min-width: 169px;
+        height: 56px;
+        border:none;
+        border-radius: 4px;
     }
 
         .section-one-button:hover{background-color: var(--color-ocean);}
@@ -135,11 +138,16 @@ gap:40px;}
 
         /*------------------ SECTION-TWO----------------- */
 
+        .advantages{
+            padding: 120px 0;
+        }
+
 .advantages-subtitle{color:var(--color-grey);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+margin-bottom:8px;}
 
 
 .advantages-text{
@@ -148,7 +156,16 @@ gap:40px;}
     line-height: 1.5;
     letter-spacing: 0.02em;}
 
+    .advantages-list{
+        display:flex;
+        gap: 24px;  
+    }
+    .advantages-item
+    {calc((100% - 72px) / 4);
+    }
+
     /* SECTION------THREE----DOING----- */
+    .doing{padding-bottom: 120px;}
 
     .doing-title{color:var(--color-navy-blue-modal);
         text-align: center;
@@ -156,7 +173,11 @@ gap:40px;}
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-transform: capitalize;}
+        text-transform: capitalize;
+    margin-bottom: 72px;}
+
+    .doing-list list{display: flex;
+    gap: 24px;}
 
         /* SECTION ----FOUR--- OUR--TEAM---- */
 
