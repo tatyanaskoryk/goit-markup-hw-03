@@ -17,10 +17,12 @@
 
 }
 
-.container { 
+.container {
+display:flex; 
+width: 1158;
 max-width: 
-padding-left:  
-padding-right:  
+padding-left: 15px; 
+padding-right: 15px; 
 margin-left:  
 margin-right:  
 }
@@ -67,7 +69,8 @@ list-style: none;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+    margin-right:76px;}
 
 .header-logo-studio{color:var(--color-grey);
 }
@@ -86,6 +89,14 @@ list-style: none;
 .header-address-link:hover{color: var(--color-ocean);}
 .header-address-link:focus{color:var(--color-ocean);} 
 
+.header-navigation{display:flex;
+aligh-items:center;}
+.header-menu-list{display:flex;
+gap:40px;
+padding:24px 0;}
+
+.header-address{display-flex;
+gap:40px;}
     
 
     /* --------------hero-BUTTONS------------------------ */
