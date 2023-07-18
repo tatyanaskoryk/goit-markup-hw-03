@@ -59,6 +59,8 @@ list-style: none;
 
 /* ----------------HEADER-------------------------- */
 
+.header{border-bottom: 1px solid #e7e9fc}
+
 .header-logo{color:var(--color-iris);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
