@@ -87,11 +87,9 @@ list-style: none;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    padding: 24px 0;}
 
-   .header-logo .link{
-    padding: 24px 0;
-   }
 
     address{font-style:normal;}
 
@@ -107,7 +105,7 @@ list-style: none;
 align-items:center; 
 }
 .header-menu-list .list{
-    padding: 24px 0;
+
 }
 
 .header-menu-item
@@ -119,7 +117,7 @@ align-items:center;
 gap: 40px;}
 
 .header-html .container{
-    padding: 24px 0;
+
 }
    
     
@@ -359,7 +357,8 @@ margin-bottom:8px;}
         row-gap: 48px;
     } 
 
-    .main-section-item{ width: calc ((100% - 48px) / 3);}
+    .main-section-item {width: calc ((100% - 48px) / 3);}
+
     .div-pictures{
         padding: 32px 16px;
         border: 1px solid var(--color-corn-flower);
