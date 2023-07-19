@@ -99,18 +99,21 @@ list-style: none;
 .header-address-link:focus{color:var(--color-ocean);} 
 
 .header-navigation{display:flex;
-align-items:center;
- padding: 24px 0;
+align-items:center; 
 }
 
 
-.header-menu-item{
-padding: 24px 0;}
+.header-menu-item
+{
+}
 
-.header-address-list{display:flex;
-gap:40px;}
+.header-address-list
+{display:flex;
+gap: 40px;}
 
-.header-html .container{}
+.header-html .container{
+    padding: 24px 0;
+}
    
     
 .header-menu-list{
