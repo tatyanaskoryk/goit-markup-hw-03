@@ -83,7 +83,7 @@ list-style: none;
 
 .header-logo-studio{color:var(--color-grey);
 }
-.header-menu-link{color:var(--color-grey);
+.header-menu-link {color:var(--color-grey);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -91,6 +91,7 @@ list-style: none;
 
     .header-menu-link .link{
         padding: 24px 0;
+        display:block;
     }
 
     address{font-style:normal;}
