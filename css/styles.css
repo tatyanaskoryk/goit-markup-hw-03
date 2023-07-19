@@ -21,9 +21,10 @@
 width: 1158px;
 margin:0 auto;
 padding-left:15px; 
-padding-right:15px;   
+padding-right:15px;  
+display: flex; 
 }
-
+ 
 
 
 .visually-hidden {
@@ -99,14 +100,18 @@ list-style: none;
 
 .header-navigation{display:flex;
 align-items:center;}
-.header-menu-item{display:flex;
-gap:40px;
-padding:24px 0;}
+.header-menu-item{
+padding: 24px 0;}
 
-.header-address-list{display-flex:
+.header-address-list{display:flex;
 gap:40px;}
-    
 
+
+    
+.header-menu-list{
+    display:flex;
+    gap: 40px;
+}
     /* --------------hero-BUTTONS------------------------ */
 
 
@@ -219,7 +224,7 @@ margin-bottom:8px;}
       .team-text{line-height: 1.5;
         letter-spacing: 0.02em;
     text-align:center;}
-    
+
         .team-list .list{
             display:flex;
             gap:24px;
@@ -284,8 +289,8 @@ margin-bottom:8px;}
     background-color: var(--color-cloud);
     cursor: pointer;
 }
-.button-all:hover {color: var(--color-white)#FFFFFF; background-color:var(--color-ocean);}
-.button-all:focus {color: var(--color-white)#FFFFFF; background-color:var(--color-ocean);}
+.button-all:hover {color: var(--color-white); background-color:var(--color-ocean);}
+.button-all:focus {color: var(--color-white); background-color:var(--color-ocean);}
 
 
 
@@ -308,3 +313,26 @@ margin-bottom:8px;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+
+    .hero{padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .section-button-list{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+    .button-all{
+      padding: 12px 24px;
+      border: 1px solid color:var(--color-corn-flower);
+      border-radius: 4px;
+
+    
+    .button-item-all:hover,{border:1px solid transparent}
+     
+    .button-item-all:focus,{border:1px solid transparent}
+    
+
+
