@@ -89,6 +89,10 @@ list-style: none;
     line-height: 1.5;
     letter-spacing: 0.02em;}
 
+    .header-menu-link .link{
+        padding: 24px 0;
+    }
+
     address{font-style:normal;}
 
 .header-menu-link:hover{color: var(--color-ocean);}
