@@ -21,8 +21,7 @@
 width: 1158px;
 margin:0 auto;
 padding-left:15px; 
-padding-right:15px;  
-display: flex; 
+padding-right:15px;   
 }
  
 
@@ -91,7 +90,9 @@ list-style: none;
     padding: 24px 0;}
 
 
-    address{font-style:normal;}
+    address{
+        margin-left: auto;
+        font-style:normal;}
 
 .header-menu-link:hover{color: var(--color-ocean);}
 .header-menu-link:focus{color: var(--color-ocean);}
@@ -116,8 +117,8 @@ align-items:center;
 {display:flex;
 gap: 40px;}
 
-.header-html .container{
-
+.header-html {
+display:flex;
 }
    
     
