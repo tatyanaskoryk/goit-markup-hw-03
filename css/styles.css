@@ -64,12 +64,14 @@ list-style: none;
  h6 {
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 0;
  }
 
+ ul {margin-top: 0;
+    margin-bottom: 0;
+padding-left;}
 /* ----------------HEADER-------------------------- */
 
-.header{border-bottom: 1px solid #e7e9fc}
+.header{border-bottom: 1px solid var(--color-corn-flower);}
 
 .header-logo{color:var(--color-iris);
     font-family: "Raleway", sans-serif;
@@ -159,6 +161,8 @@ display:flex;
         height: 56px;
         border:none;
         border-radius: 4px;
+        display:block;
+        ;
     }
 
         .section-one-button:hover{background-color: var(--color-ocean);}
