@@ -68,7 +68,7 @@ list-style: none;
 
  ul, li {margin-top: 0;
     margin-bottom: 0;
-    padding-left 0;
+    padding-left: 0;
 }
 /* ----------------HEADER-------------------------- */
 
@@ -182,7 +182,7 @@ display:flex;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-margin-bottom:8px;}
+    margin-bottom:8px;}
 
 
 .advantages-text{
@@ -216,7 +216,7 @@ margin-bottom:8px;}
 
     .doing-item
     {width: calc((100% - 48px) / 3);
-
+        
     }
 
         /* SECTION ----FOUR--- OUR--TEAM---- */
