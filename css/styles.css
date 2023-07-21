@@ -90,7 +90,8 @@ list-style: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;}
+    padding: 24px 0;
+    display:block;}
 
 
     address{
@@ -122,6 +123,7 @@ gap: 40px;}
 
 .header-html {
 display:flex;
+align-items: center;
 }
    
     
@@ -143,7 +145,10 @@ display:flex;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        max-width: 496px;}
+        max-width: 496px;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;}
 
 
 
@@ -163,8 +168,9 @@ display:flex;
         border:none;
         border-radius: 4px;
         display: block;
-    
-   }
+        margin-left: auto;
+        margin-right: auto;
+     }
 
         .section-one-button:hover{background-color: var(--color-ocean);}
         .section-one-button:focus{background-color: var(--color-ocean);}
@@ -286,7 +292,8 @@ display:flex;
 .footer-text{color:var(--color-cloud);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    max-width: 264px;}
 
 
 
