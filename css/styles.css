@@ -317,11 +317,11 @@ margin-bottom:8px;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--color-cloud);
-    cursor: pointer;
-    
+    cursor: pointer;}
+
+.button-all{border: 1px solid var(--cornflower);
 }
-.button-all-first{border: 1px solid var(--cornflower, #E7E9FC);
-}
+
 .button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 .button-all:focus {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 
