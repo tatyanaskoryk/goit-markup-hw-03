@@ -10,7 +10,7 @@
     --color-ocean: #404BBF;
     --color-green:#31d0aa;
     --color-ligth-slate:#8e8f99;
-    --color-corn-flower:#e7e9fc;
+    --color-cornflower:#e7e9fc;
     --color-navy-blue-modal:#2e2f42;
     --color-grey:#2e2f42;
     --color-dairy:#fcfcfc;
@@ -72,7 +72,7 @@ list-style: none;
 }
 /* ----------------HEADER-------------------------- */
 
-.header{border-bottom: 1px solid var(--color-corn-flower);}
+.header{border-bottom: 1px solid var(--color-cornflower);}
 
 .header-logo{color:var(--color-iris);
     font-family: "Raleway", sans-serif;
@@ -318,9 +318,10 @@ margin-bottom:8px;}
     letter-spacing: 0.04em;
     background-color: var(--color-cloud);
     cursor: pointer;
-    border: 1px solid var(--color-corn-flower);
+    
 }
-
+.button-all{border: 1px solid var(--cornflower, #E7E9FC);
+}
 .button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 .button-all:focus {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 
