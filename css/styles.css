@@ -319,7 +319,8 @@ margin-bottom:8px;}
     background-color: var(--color-cloud);
     cursor: pointer;}
 
-.button-all{border: 1px solid var(--cornflower);
+.button-all
+{border: 1px solid var(--cornflower);
 }
 
 .button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
@@ -360,7 +361,7 @@ margin-bottom:8px;}
     }
     .button-all{
       padding: 12px 24px;
-      border: 1px solid color: var(--color-corn-flower);
+      border: 1px solid color: var(--color-cornflower);
       border-radius: 4px;}
 
     
