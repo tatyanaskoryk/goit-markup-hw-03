@@ -320,7 +320,7 @@ margin-bottom:8px;}
     cursor: pointer;
     
 }
-.button-all{border: 1px solid var(--cornflower, #E7E9FC);
+.button-all-first{border: 1px solid var(--cornflower, #E7E9FC);
 }
 .button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 .button-all:focus {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
