@@ -321,16 +321,18 @@ margin-bottom:8px;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--color-cloud);
-    cursor: pointer;}
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid color: var(--color-cornflower);
+    border-radius: 4px;
+    text-align: center;}
 
-.button-all
-{border: 1px solid var(--cornflower);
-}
+
 
 .button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 .button-all:focus {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
 
-
+ 
 
 
 
@@ -363,10 +365,7 @@ margin-bottom:8px;}
         gap: 24px;
         margin-bottom: 72px;
     }
-    .button-all{
-      padding: 12px 24px;
-      border: 1px solid color: var(--color-cornflower);
-      border-radius: 4px;}
+   
 
     
     .button-item-all:hover{border: 1px solid transparent}
